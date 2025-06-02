@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="parrot">Parrot</string>
+    <string name="Dove">Dove</string>
+    <string name="Lutino">Lutino</string>
+    <string name="Sparrow_is_a_small_cheerfull_bird_that_fits_about_filling_the_air_with_lively_chirps_and_brings_a_sense_of_joy_to_gardens_and_parks">Sparrow is a small, cheerfull bird that fits about, filling the air with lively chirps and brings a sense of joy to gardens and parks</string>
+    <string name="The_starling_is_a_colorful_bird_that_amazes_people_with_its_bautiful_feathers_and_ability_to_imitate_sounds_while_flying_in_big_groups">The starling is a colorful bird that amazes people with its bautiful feathers and ability to imitate sounds while flying in big groups.</string>
+    <string name="Sparrow">Sparrow</string>
+    <string name="Starling">Starling</string>
+</resources>
