@@ -18,6 +18,7 @@
         android:id="@+id/imageView4"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:contentDescription="@string/Todos"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,10 +30,11 @@
 
     <TextView
         android:id="@+id/Sparrow"
+        android:labelFor="@+id/otherView"
         android:layout_width="325dp"
         android:layout_height="108dp"
         android:text="@string/Sparrow_is_a_small_cheerfull_bird_that_fits_about_filling_the_air_with_lively_chirps_and_brings_a_sense_of_joy_to_gardens_and_parks"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,9 +43,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <ImageView
-        android:id="@+id/btnPrev4"
+        android:id="@+id/btnPrev2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
@@ -54,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
+        android:contentDescription="@string/Todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"

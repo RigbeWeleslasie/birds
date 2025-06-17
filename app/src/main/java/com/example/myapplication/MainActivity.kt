@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var btnNext1:ImageView
+     lateinit var btnNext1:ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,9 +24,12 @@ class MainActivity : AppCompatActivity() {
             val intent= Intent(this,Bird2Activity::class.java)
             startActivity(intent)
         }
-
     }
 }
+
+
+
+
 
 
 //R reperesents module

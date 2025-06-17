@@ -22,9 +22,6 @@
             android:name=".Bird3Activity"
             android:exported="false" />
         <activity
-            android:name=".Bird3Activitiy"
-            android:exported="false" />
-        <activity
             android:name=".Bird2Activity"
             android:exported="false" />
         <activity

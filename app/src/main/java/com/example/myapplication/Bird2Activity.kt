@@ -15,21 +15,15 @@ class Bird2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_bird2)
-        btnPrev2=findViewById(R.id.btnPrev4)
+        btnPrev2=findViewById(R.id.btnPrev2)
         btnNext2=findViewById(R.id.btnNext2)
         btnPrev2.setOnClickListener{
-            val intent=Intent(this,MainActivity::class.java)
-            startActivity(intent)
+           finish()
         }
         btnNext2.setOnClickListener{
             val intent=Intent(this,Bird3Activity::class.java)
             startActivity(intent)
         }
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
     }
 }

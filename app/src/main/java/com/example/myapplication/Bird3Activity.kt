@@ -18,17 +18,12 @@ class Bird3Activity : AppCompatActivity() {
         btnPrev3=findViewById(R.id.btnPrev3)
         btnNext3=findViewById(R.id.btnNext3)
         btnPrev3.setOnClickListener{
-            val intent= Intent(this,Bird2Activity::class.java)
-            startActivity(intent)
+           finish()
         }
         btnNext3.setOnClickListener{
             val intent= Intent(this,Bird4Activity::class.java)
             startActivity(intent)
         }
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
     }
 }
